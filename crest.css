@@ -1,0 +1,1814 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: calc(0.5vw + 0.5vh);
+}
+body{
+    margin: 0 auto;
+    padding: 0 auto;
+    aspect-ratio: 0.163/1;
+    height: auto;
+    width: 100%;
+    top: 23.19%;
+    left: 5.31%;
+    background-color: rgba(255, 255, 255, 1);
+}
+.frame1{
+    position: relative;
+    aspect-ratio: 2/3;
+    width: 100%;
+    height: calc(100vw / (1280 / 832));
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+}
+.frame2{
+    position: relative;
+    aspect-ratio: 1/1.54;
+    width: 100%;
+    height: calc(100vw / (1280 / 832));
+    top: calc(100vw / (1280 / 832));
+    background-color: rgba(255, 255, 255, 1);
+}
+.frame3{
+    position: relative;
+    aspect-ratio: 0.588/1;
+    width: 100%;
+    height: calc(100vw / (1280 / 2178));
+    top: calc(100vw / (1280 / 3010));
+    background-color: rgba( 0, 0, 0, 1);
+
+}
+.frame4{
+    position: relative;
+    aspect-ratio: 2/3;
+    width: 100%;
+    height: calc(100vw / (1280 / 832));
+    top: calc(100vw / (1280 / 3842));
+    background-color: rgb(255, 255, 255);
+}
+.frame5{
+    position: relative;
+    aspect-ratio: 2/3;
+    width: 100%;
+    height: calc(100vw / (1280 / 4674));
+    top: 59.44%;
+    background-color: rgb(255, 255, 255);
+}
+.frame6{
+    position: relative;
+    aspect-ratio: 2/3;
+    width: 100%;
+    height: calc(100vw / (1280 / 5506));
+    top: 70.02%;
+    background-color: rgb(190, 190, 190);
+}
+.frame7{
+    position: relative;
+    aspect-ratio: 2/3;
+    width: 100%;
+    height: calc(100vw / (1280 / 6338));
+    top: 80.6%;
+    background-color: rgb(190, 190, 190);
+}
+.frame1content1{
+    position: absolute;
+    aspect-ratio: 2.6/1;
+    width: 40%;
+    height: auto;
+    top: 37.6%;
+    left: 5.47%;
+    font-size: 3rem;
+    line-height: 1.35; 
+    font-weight: 700;
+    overflow: hidden;
+    white-space: wrap;
+    text-align: center;
+    color: rgba( 0, 0, 0, 1);
+    font-family: 'Radikal', sans-serif;
+}
+.frame1content2{
+    position: absolute;
+    aspect-ratio: 8.46/1;
+    width: 15.859%;
+    height: auto;
+    top: 34.97%;
+    left: 17.5%;
+    font-size: 1.1em;
+    line-height: 1.35; 
+    font-weight: 700;
+    overflow: hidden;
+    white-space: wrap;
+    text-align: center;
+    color: rgba( 0, 0, 0, 1);
+    font-family: 'Radikal', sans-serif;
+}
+.frame1logo{
+    position: absolute;
+    aspect-ratio: 1/1;
+    width: 13.75%;
+    height: auto;
+    top: -2.6%;
+    left: -0.781%;
+    background-color: rgba( 0, 0, 0, 1);
+    /*background-image: image-set("static\\logo.jpg");*/
+}
+.frame1box1{
+    position: absolute;
+    aspect-ratio: 0.732/1;
+    width: 48.91%;
+    height: auto;
+    top: calc(10px);
+    left: 50.313%;
+    border-radius: 21px;
+    background-color: rgba( 0, 0, 0, 1);
+    /*background-image: image-set("static\\Rectangle 89.png");*/
+}
+.frame1box2{
+    position: absolute;
+    width: 14.53%;
+    height: 47px;
+    top: 767px;
+    left: 2.97%;
+    border-radius: 36px;
+    background-color: rgba( 0, 0, 0, 1);
+}
+.frame1content3{
+    position: absolute;
+    width: 9.22%;
+    height: 22px;
+    top: 780px;
+    left: 7.11%;
+    content: "Contact Us Now";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21.6px;
+    overflow: hidden;
+    white-space: wrap;
+    text-align: center;
+    color: rgba( 255, 255, 255, 1);
+    font-family: 'Radikal', sans-serif;
+}
+.frame1circle1{
+    position: absolute;
+    width: 3.2%;
+    height: 41px;
+    top: 770px;
+    left: 3.2%;
+    border-radius: 20.5px;
+    background-color: rgb(103, 149, 205);
+}
+.frame1image1{
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    left: 49px;
+    top: 778px;
+    /*background-image: image-set("static\\Ringer Volume2.png");*/ 
+}
+.frame1text1{
+    position: absolute;
+    width: 174px;
+    height: 44px;
+    top: 44px;
+    left: 687px;
+    content: "More than 1500 facility management properties";
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Radikal', sans-serif;
+    overflow: hidden;
+    line-height: 21.6px;
+    color: rgb(255, 255, 255);
+    white-space: wrap;
+    text-align: center;
+}
+.frame1text2{
+    position: absolute;
+    width: 172px;
+    height: 44px;
+    top: 44px;
+    left: 933px;
+    content: "From $10,000 with a yield of 10% per annum";
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Radikal', sans-serif;
+    overflow: hidden;
+    line-height: 21.6px;
+    color: rgb(255, 255, 255);
+    white-space: wrap;
+    text-align: center;
+}
+.frame1box3{
+    position: absolute;
+    width: 151px;
+    height: 58px;
+    top: 718px;
+    left: 1057px;
+    border-radius: 18px;
+    background-color: rgb(255, 255, 255);
+}
+.frame1text3{
+    position: absolute;
+    width: 69px;
+    height: 40px;
+    top: 727px;
+    left: 1076px;
+    content: "Catalog download";
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'Radikal', sans-serif;
+    overflow: hidden;
+    line-height: 20.25px;
+    color: rgb(0, 0, 0);
+    white-space: wrap;
+    text-align: center;
+}
+.frame1text4{
+    position: absolute;
+    width: 110px;
+    height: 44px;
+    top: 765px;
+    left: 403px;
+    content: "Explore All Our Properties";
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Radikal', sans-serif;
+    overflow: hidden;
+    line-height: 21.6px;
+    color: rgb(0, 0, 0);
+    white-space: wrap;
+    text-align: left;
+}
+.frame1circle2{
+    position: absolute;
+    width: 77px;
+    height: 77px;
+    top: 737px;
+    left: 525px;
+    border-radius: 38.5px;
+    background-color: rgb(0, 0, 0);
+}
+.frame1image2{
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    left: 1162px;
+    top: 733px;
+    background-image: image-set("static\\Downloading Updates.png");
+}
+.frame2box1{
+    position: absolute;
+    width: 578px;
+    height: 777px;
+    top: 27px;
+    left: 41px;
+    border-radius: 36px;
+    background-color: rgb(0, 0, 0);
+    background-image: image-set("static\\Rectangle 92 (2).png");
+}
+.frame2box2{
+    position: absolute;
+    width: 118px;
+    height: 28px;
+    top: 122px;
+    left: 660px;
+    border-radius: 0px;
+    background-color: rgb(103, 149, 205);
+}
+.frame2text1{
+    position: absolute;
+    width: 115px;
+    height: 22px;
+    top: 125px;
+    left: 666px;
+    content: "Our Company";
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Radikal', sans-serif;
+    overflow: hidden;
+    line-height: 21.6px;
+    color: rgb(0, 0, 0);
+    white-space: wrap;
+    text-align: left;
+}
+.frame2text2{
+    position: absolute;
+    width: 152px;
+    height: 22px;
+    top: 735px;
+    left: 671px;
+    content: "VISION & MISSION";
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Radikal', sans-serif;
+    overflow: hidden;
+    line-height: 21.6px;
+    color: rgb(255, 255, 255);
+    white-space: wrap;
+    text-align: left;
+}
+.frame2box3{
+    position: absolute;
+    width: 164px;
+    height: 41px;
+    top: 725px;
+    left: 660px;
+    border-radius: 0px;
+    background-color: rgb(13, 25, 40);
+}
+.frame3text{
+    position: absolute;
+    width: 985px;
+    height: 54px;
+    top: 58px;
+    left: 148px;
+    content: "Explore Our Facility Management Services Portfolio";
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Radikal', sans-serif;
+    overflow: hidden;
+    line-height: 54px;
+    color: rgba(255, 255, 255, 1);
+    white-space: wrap;
+    text-align: left;
+}
+.frame3box1a{
+    position: absolute;
+    width: 579px;
+    height: 593px;
+    background-color: rgba(13, 25, 40, 1);
+    border-radius: 36px;
+    top: 180px;
+    left: 38px;
+}
+.frame3box1b{
+    position: absolute;
+    width: 579px;
+    height: 593px;
+    background-color: rgba(13, 25, 40, 1);
+    border-radius: 36px;
+    top: 180px;
+    left: 38px;
+    opacity: 50%;
+    background-blend-mode: luminosity;
+    background-image: image-set("static\\frame 2b.png");
+}
+
+.frame3box1mini1{
+    position: absolute;
+    width: 136px;
+    height: 81px;
+    background-color: rgba(103, 149, 205, 1);
+    border-radius: 21px;
+    top: 631px;
+    left: 268px;
+}
+.frame3box1mini2{
+    position: absolute;
+    width: 154px;
+    height: 81px;
+    background-color: rgba(103, 149, 205, 1);
+    border-radius: 21px;
+    top: 631px;
+    left: 412px;
+}
+.frame3box1text1{
+    position: absolute;
+    width: 172px;
+    height: 76px;
+    top: 233px;
+    left: 92px;
+    content: "Energy Management";
+    font-size: 28px;
+    font-weight: 700;
+    font-family: 'Radikal', sans-serif;
+    overflow: hidden;
+    line-height: 37.8px;
+    color: rgba(255, 255, 255, 1);
+    white-space: wrap;
+    text-align: left;
+}
+.frame3box1text2{
+    position: absolute;
+    width: 35px;
+    height: 20px;
+    top: 644px;
+    left: 289px;
+    content: "Price";
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'Radikal', sans-serif;
+    overflow: hidden;
+    line-height: 20.25px;
+    color: rgba(255, 255, 255, 1);
+    white-space: wrap;
+    text-align: left;
+}
+.frame3box1text3{
+    position: absolute;
+    width: 96px;
+    height: 24px;
+    top: 676px;
+    left: 289px;
+    content: "from $120k";
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Radikal', sans-serif;
+    overflow: hidden;
+    line-height: 24.3px;
+    color: rgba(0, 0, 0, 1);
+    white-space: wrap;
+    text-align: left;
+}
+.frame3box1text4{
+    position: absolute;
+    width: 107px;
+    height: 20px;
+    top: 644px;
+    left: 435px;
+    content: "Installment plan";
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'Radikal', sans-serif;
+    overflow: hidden;
+    line-height: 20.25px;
+    color: rgba(255, 255, 255, 1);
+    white-space: wrap;
+    text-align: left;
+}
+.frame3box1text5{
+    position: absolute;
+    width: 106px;
+    height: 24px;
+    top: 676px;
+    left: 435px;
+    content: "for 15 years";
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Radikal', sans-serif;
+    overflow: hidden;
+    line-height: 24.3px;
+    color: rgba(0, 0, 0, 1);
+    white-space: wrap;
+    text-align: left;
+}
+.frame3box2a{
+    position: absolute;
+    width: 579px;
+    height: 593px;
+    background-color: rgba(13, 25, 40, 1);
+    border-radius: 36px;
+    top: 180px;
+    left: 659px;
+}
+.frame3box2b{
+    position: absolute;
+    width: 579px;
+    height: 593px;
+    background-color: rgba(13, 25, 40, 1);
+    border-radius: 36px;
+    top: 180px;
+    left: 659px;
+    opacity: 50%;
+    background-blend-mode: luminosity;
+    background-image: image-set("static\\frame 2a.png");
+}
+
+.frame3box2mini1{
+    position: absolute;
+    width: 136px;
+    height: 81px;
+    background-color: rgba(103, 149, 205, 1);
+    border-radius: 21px;
+    top: 631px;
+    left: 889px;
+}
+.frame3box2mini2{
+    position: absolute;
+    width: 154px;
+    height: 81px;
+    background-color: rgba(103, 149, 205, 1);
+    border-radius: 21px;
+    top: 631px;
+    left: 1033px;
+}
+.frame3box2text1{
+    position: absolute;
+    width: 207px;
+    height: 76px;
+    top: 233px;
+    left: 713px;
+    content: "Catering & House Keeping";
+    font-size: 28px;
+    font-weight: 700;
+    font-family: 'Radikal', sans-serif;
+    overflow: hidden;
+    line-height: 37.8px;
+    color: rgba(255, 255, 255, 1);
+    white-space: wrap;
+    text-align: left;
+}
+.frame3box2text2{
+    position: absolute;
+    width: 35px;
+    height: 20px;
+    top: 644px;
+    left: 910px;
+    content: "Price";
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'Radikal', sans-serif;
+    overflow: hidden;
+    line-height: 20.25px;
+    color: rgba(255, 255, 255, 1);
+    white-space: wrap;
+    text-align: left;
+}
+.frame3box2text3{
+    position: absolute;
+    width: 96px;
+    height: 24px;
+    top: 676px;
+    left: 910px;
+    content: "from $120k";
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Radikal', sans-serif;
+    overflow: hidden;
+    line-height: 24.3px;
+    color: rgba(0, 0, 0, 1);
+    white-space: wrap;
+    text-align: left;
+}
+.frame3box2text4{
+    position: absolute;
+    width: 107px;
+    height: 20px;
+    top: 644px;
+    left: 1056px;
+    content: "Installment plan";
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'Radikal', sans-serif;
+    overflow: hidden;
+    line-height: 20.25px;
+    color: rgba(255, 255, 255, 1);
+    white-space: wrap;
+    text-align: left;
+}
+.frame3box2text5{
+    position: absolute;
+    width: 106px;
+    height: 24px;
+    top: 676px;
+    left: 1056px;
+    content: "for 15 years";
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Radikal', sans-serif;
+    overflow: hidden;
+    line-height: 24.3px;
+    color: rgba(0, 0, 0, 1);
+    white-space: wrap;
+    text-align: left;
+}
+.frame3box4a{
+    position: absolute;
+    width: 579px;
+    height: 593px;
+    background-color: rgba(13, 25, 40, 1);
+    border-radius: 36px;
+    top: 814px;
+    left: 659px;
+}
+.frame3box4b{
+    position: absolute;
+    width: 579px;
+    height: 593px;
+    background-color: rgba(13, 25, 40, 1);
+    border-radius: 36px;
+    top: 814px;
+    left: 659px;
+    opacity: 50%;
+    background-blend-mode: luminosity;
+    background-image: image-set("static\\frame 2d.png");
+}
+
+.frame3box4mini1{
+    position: absolute;
+    width: 136px;
+    height: 81px;
+    background-color: rgba(103, 149, 205, 1);
+    border-radius: 21px;
+    top: 1265px;
+    left: 889px;
+}
+.frame3box4mini2{
+    position: absolute;
+    width: 154px;
+    height: 81px;
+    background-color: rgba(103, 149, 205, 1);
+    border-radius: 21px;
+    top: 1265px;
+    left: 1033px;
+}
+.frame3box4text1{
+    position: absolute;
+    width: 115px;
+    height: 76px;
+    top: 867px;
+    left: 713px;
+    content: "Security Services";
+    font-size: 28px;
+    font-weight: 700;
+    font-family: 'Radikal', sans-serif;
+    overflow: hidden;
+    line-height: 37.8px;
+    color: rgba(255, 255, 255, 1);
+    white-space: wrap;
+    text-align: left;
+}
+.frame3box4text2{
+    position: absolute;
+    width: 35px;
+    height: 20px;
+    top: 1278px;
+    left: 910px;
+    content: "Price";
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'Radikal', sans-serif;
+    overflow: hidden;
+    line-height: 20.25px;
+    color: rgba(255, 255, 255, 1);
+    white-space: wrap;
+    text-align: left;
+}
+.frame3box4text3{
+    position: absolute;
+    width: 96px;
+    height: 24px;
+    top: 1310px;
+    left: 910px;
+    content: "from $120k";
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Radikal', sans-serif;
+    overflow: hidden;
+    line-height: 24.3px;
+    color: rgba(0, 0, 0, 1);
+    white-space: wrap;
+    text-align: left;
+}
+.frame3box4text4{
+    position: absolute;
+    width: 107px;
+    height: 20px;
+    top: 1278px;
+    left: 1056px;
+    content: "Installment plan";
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'Radikal', sans-serif;
+    overflow: hidden;
+    line-height: 20.25px;
+    color: rgba(255, 255, 255, 1);
+    white-space: wrap;
+    text-align: left;
+}
+.frame3box4text5{
+    position: absolute;
+    width: 106px;
+    height: 24px;
+    top: 1310px;
+    left: 1056px;
+    content: "for 15 years";
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Radikal', sans-serif;
+    overflow: hidden;
+    line-height: 24.3px;
+    color: rgba(0, 0, 0, 1);
+    white-space: wrap;
+    text-align: left;
+}
+.frame3box3a{
+    position: absolute;
+    width: 579px;
+    height: 593px;
+    background-color: rgba(13, 25, 40, 1);
+    border-radius: 36px;
+    top: 814px;
+    left: 38px;
+}
+.frame3box3b{
+    position: absolute;
+    width: 579px;
+    height: 593px;
+    background-color: rgba(13, 25, 40, 1);
+    border-radius: 36px;
+    top: 814px;
+    left: 38px;
+    opacity: 50%;
+    background-blend-mode: luminosity;
+    background-image: image-set("static\\frame 2c.png");
+}
+
+.frame3box3mini1{
+    position: absolute;
+    width: 136px;
+    height: 81px;
+    background-color: rgba(103, 149, 205, 1);
+    border-radius: 21px;
+    top: 1265px;
+    left: 268px;
+}
+.frame3box3mini2{
+    position: absolute;
+    width: 154px;
+    height: 81px;
+    background-color: rgba(103, 149, 205, 1);
+    border-radius: 21px;
+    top: 1265px;
+    left: 412px;
+}
+.frame3box3text1{
+    position: absolute;
+    width: 172px;
+    height: 76px;
+    top: 867px;
+    left: 92px;
+    content: "Remote Site Management";
+    font-size: 28px;
+    font-weight: 700;
+    font-family: 'Radikal', sans-serif;
+    overflow: hidden;
+    line-height: 37.8px;
+    color: rgba(255, 255, 255, 1);
+    white-space: wrap;
+    text-align: left;
+}
+.frame3box3text2{
+    position: absolute;
+    width: 35px;
+    height: 20px;
+    top: 1278px;
+    left: 289px;
+    content: "Price";
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'Radikal', sans-serif;
+    overflow: hidden;
+    line-height: 20.25px;
+    color: rgba(255, 255, 255, 1);
+    white-space: wrap;
+    text-align: left;
+}
+.frame3box3text3{
+    position: absolute;
+    width: 96px;
+    height: 24px;
+    top: 1310px;
+    left: 289px;
+    content: "from $120k";
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Radikal', sans-serif;
+    overflow: hidden;
+    line-height: 24.3px;
+    color: rgba(0, 0, 0, 1);
+    white-space: wrap;
+    text-align: left;
+}
+.frame3box3text4{
+    position: absolute;
+    width: 107px;
+    height: 20px;
+    top: 1278px;
+    left: 435px;
+    content: "Installment plan";
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'Radikal', sans-serif;
+    overflow: hidden;
+    line-height: 20.25px;
+    color: rgba(255, 255, 255, 1);
+    white-space: wrap;
+    text-align: left;
+}
+.frame3box3text5{
+    position: absolute;
+    width: 106px;
+    height: 24px;
+    top: 1310px;
+    left: 435px;
+    content: "for 15 years";
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Radikal', sans-serif;
+    overflow: hidden;
+    line-height: 24.3px;
+    color: rgba(0, 0, 0, 1);
+    white-space: wrap;
+    text-align: left;
+}
+.frame3box6a{
+    position: absolute;
+    width: 579px;
+    height: 593px;
+    background-color: rgba(13, 25, 40, 1);
+    border-radius: 36px;
+    top: 1448px;
+    left: 659px;
+}
+.frame3box6b{
+    position: absolute;
+    width: 579px;
+    height: 593px;
+    background-color: rgba(13, 25, 40, 1);
+    border-radius: 36px;
+    top: 1448px;
+    left: 659px;
+    opacity: 50%;
+    background-blend-mode: luminosity;
+    background-image: image-set("static\\frame 2.png");
+}
+
+.frame3box6mini1{
+    position: absolute;
+    width: 136px;
+    height: 81px;
+    background-color: rgba(103, 149, 205, 1);
+    border-radius: 21px;
+    top: 1899px;
+    left: 889px;
+}
+.frame3box6mini2{
+    position: absolute;
+    width: 154px;
+    height: 81px;
+    background-color: rgba(103, 149, 205, 1);
+    border-radius: 21px;
+    top: 1899px;
+    left: 1033px;
+}
+.frame3box6text1{
+    position: absolute;
+    width: 205px;
+    height: 76px;
+    top: 1501px;
+    left: 713px;
+    content: "Integrated Engineering";
+    font-size: 28px;
+    font-weight: 700;
+    font-family: 'Radikal', sans-serif;
+    overflow: hidden;
+    line-height: 37.8px;
+    color: rgba(255, 255, 255, 1);
+    white-space: wrap;
+    text-align: left;
+}
+.frame3box6text2{
+    position: absolute;
+    width: 35px;
+    height: 20px;
+    top: 1912px;
+    left: 910px;
+    content: "Price";
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'Radikal', sans-serif;
+    overflow: hidden;
+    line-height: 20.25px;
+    color: rgba(255, 255, 255, 1);
+    white-space: wrap;
+    text-align: left;
+}
+.frame3box6text3{
+    position: absolute;
+    width: 96px;
+    height: 24px;
+    top: 1944px;
+    left: 910px;
+    content: "from $120k";
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Radikal', sans-serif;
+    overflow: hidden;
+    line-height: 24.3px;
+    color: rgba(0, 0, 0, 1);
+    white-space: wrap;
+    text-align: left;
+}
+.frame3box6text4{
+    position: absolute;
+    width: 107px;
+    height: 20px;
+    top: 1912px;
+    left: 1056px;
+    content: "Installment plan";
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'Radikal', sans-serif;
+    overflow: hidden;
+    line-height: 20.25px;
+    color: rgba(255, 255, 255, 1);
+    white-space: wrap;
+    text-align: left;
+}
+.frame3box6text5{
+    position: absolute;
+    width: 106px;
+    height: 24px;
+    top: 1944px;
+    left: 1056px;
+    content: "for 15 years";
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Radikal', sans-serif;
+    overflow: hidden;
+    line-height: 24.3px;
+    color: rgba(0, 0, 0, 1);
+    white-space: wrap;
+    text-align: left;
+}
+.frame3box5a{
+    position: absolute;
+    width: 579px;
+    height: 593px;
+    background-color: rgba(13, 25, 40, 1);
+    border-radius: 36px;
+    top: 1448px;
+    left: 38px;
+}
+.frame3box5b{
+    position: absolute;
+    width: 579px;
+    height: 593px;
+    background-color: rgba(13, 25, 40, 1);
+    border-radius: 36px;
+    top: 1448px;
+    left: 38px;
+    opacity: 50%;
+    background-blend-mode: luminosity;
+    background-image: image-set("static\\frame 2.png");
+}
+
+.frame3box5mini1{
+    position: absolute;
+    width: 136px;
+    height: 81px;
+    background-color: rgba(103, 149, 205, 1);
+    border-radius: 21px;
+    top: 1899px;
+    left: 268px;
+}
+.frame3box5mini2{
+    position: absolute;
+    width: 154px;
+    height: 81px;
+    background-color: rgba(103, 149, 205, 1);
+    border-radius: 21px;
+    top: 1899px;
+    left: 412px;
+}
+.frame3box5text1{
+    position: absolute;
+    width: 160px;
+    height: 76px;
+    top: 1501px;
+    left: 92px;
+    content: "Integrated Engineering";
+    font-size: 28px;
+    font-weight: 700;
+    font-family: 'Radikal', sans-serif;
+    overflow: hidden;
+    line-height: 37.8px;
+    color: rgba(255, 255, 255, 1);
+    white-space: wrap;
+    text-align: left;
+}
+.frame3box5text2{
+    position: absolute;
+    width: 35px;
+    height: 20px;
+    top: 1912px;
+    left: 289px;
+    content: "Price";
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'Radikal', sans-serif;
+    overflow: hidden;
+    line-height: 20.25px;
+    color: rgba(255, 255, 255, 1);
+    white-space: wrap;
+    text-align: left;
+}
+.frame3box5text3{
+    position: absolute;
+    width: 96px;
+    height: 24px;
+    top: 1944px;
+    left: 289px;
+    content: "from $120k";
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Radikal', sans-serif;
+    overflow: hidden;
+    line-height: 24.3px;
+    color: rgba(0, 0, 0, 1);
+    white-space: wrap;
+    text-align: left;
+}
+.frame3box5text4{
+    position: absolute;
+    width: 107px;
+    height: 20px;
+    top: 1912px;
+    left: 435px;
+    content: "Installment plan";
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'Radikal', sans-serif;
+    overflow: hidden;
+    line-height: 20.25px;
+    color: rgba(255, 255, 255, 1);
+    white-space: wrap;
+    text-align: left;
+}
+.frame3box5text5{
+    position: absolute;
+    width: 106px;
+    height: 24px;
+    top: 1944px;
+    left: 435px;
+    content: "for 15 years";
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Radikal', sans-serif;
+    overflow: hidden;
+    line-height: 24.3px;
+    color: rgba(0, 0, 0, 1);
+    white-space: wrap;
+    text-align: left;
+}
+.frame4box1{
+    position: absolute;
+    width: 626px;
+    height: 764px;
+    top: 34px;
+    left: 620px;
+    border-radius: 21px;
+    background-image: image-set("static\\Frame 4.png" );
+}
+.frame4text1{
+    position: absolute;
+    width: 448px;
+    height: 80px;
+    top: 34px;
+    left: 40px;
+    content: "At Sterling Crest, we offer more than  just facility management services, we provide an unparalleled experience tailored to meet your needs and exceed your expectations";
+    font-size: 15px;
+    font-weight: 550;
+    font-family: 'Radikal', sans-serif;
+    overflow: hidden;
+    line-height: 20.25px;
+    color: rgba(0, 0, 0, 1);
+    white-space: wrap;
+    text-align: left;
+    opacity: 75%;
+}
+.frame4box2{
+    position: absolute;
+    width: 186px;
+    height: 40px;
+    top: 68px;
+    left: 1034px;
+    border-radius: 36px;
+    opacity: 88%;
+    background-color: rgba( 13, 25, 40, 1);
+}
+.frame4text2{
+    position: absolute;
+    width: 118px;
+    height: 22px;
+    top: 77px;
+    left: 1080px;
+    content: "Contact Us Now";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21.6px;
+    overflow: hidden;
+    white-space: wrap;
+    text-align: center;
+    color: rgba( 255, 255, 255, 1);
+    opacity: 94%;
+    font-family: 'Radikal', sans-serif;
+}
+.frame4circle1{
+    position: absolute;
+    width: 34px;
+    height: 34px;
+    top: 71px;
+    left: 1038px;
+    border-radius: 20.5px;
+    opacity: 94%;
+    background-color: rgb(103, 149, 205);
+}
+.frame4text3{
+    position: absolute;
+    width: 138px;
+    height: 95px;
+    top: 368px;
+    left: 40px;
+    content: "Contact Us Now";
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 94.5px;
+    overflow: hidden;
+    white-space: wrap;
+    text-align: left;
+    color: rgba( 0, 0, 0, 1);
+    opacity: 94%;
+    font-family: 'Radikal', sans-serif;
+}
+.frame4line1{
+position: absolute;
+width: 539px;
+height: 1.5px;
+top: 476.13px;
+left: 40px;
+border: 1.5px;
+background-color: rgb(217, 217, 217);
+}
+.frame4line2{
+    position: absolute;
+    width: 539px;
+    height: 1.5px;
+    top: 617.13px;
+    left: 40px;
+    border: 1.5px;
+    background-color: rgb(217, 217, 217);
+    }
+.frame4text4{
+    position: absolute;
+    width: 208px;
+    height: 54px;
+    top: 389px;
+    left: 300px;
+    content: "Contact Us Now";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27px;
+    overflow: hidden;
+    white-space: wrap;
+    text-align: left;
+    color: rgba( 0, 0, 0, 1);
+    font-family: 'Radikal', sans-serif;
+}
+.frame4text5{
+    position: absolute;
+    width: 153px;
+    height: 95px;
+    top: 509px;
+    left: 40px;
+    content: "83%";
+    font-family: 'Radikal', sans-serif;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 94.5px;
+    text-align: left;
+    color: rgb(0, 0, 0);
+    overflow: hidden;
+    white-space: wrap;
+}
+.frame4text6{
+    position: absolute;
+    width: 165px;
+    height: 54px;
+    top: 530px;
+    left: 300px;
+    content: "Customer Satisfaction Rate";
+    font-family: 'Radikal', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: left;
+    color: rgb(0, 0, 0);
+    overflow: hidden;
+    white-space: wrap;
+}
+.frame4text7{
+    position: absolute;
+    width: 175px;
+    height: 95px;
+    top: 650px;
+    left: 40px;
+    content: "50+";
+    font-family: 'Radikal', sans-serif;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 94.5px;
+    text-align: left;
+    color: rgb(0, 0, 0);
+    overflow: hidden;
+    white-space: wrap;
+}
+.frame4text8{
+    position: absolute;
+    width: 238px;
+    height: 54px;
+    top: 671px;
+    left: 300px;
+    content: "Exquisite Facilities Ready for Your Selection";
+    font-family: 'Radikal', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: left;
+    color: rgb(0, 0, 0);
+    overflow: hidden;
+    white-space: wrap;
+}
+.frame4text9{
+    position: absolute;
+    width: 160px;
+    height: 20px;
+    top: 756px;
+    left: 663px;
+    content: "Exquisite Facilities Ready for Your Selection";
+    font-family: 'Radikal', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 20.25px;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    overflow: hidden;
+    white-space: wrap;
+}
+.frame4box3{
+    position: absolute;
+    width: 231px;
+    height: 92px;
+    top: 684px;
+    left: 989px;
+    border-radius: 18px;
+    background-color: rgb(255, 255, 255);
+}
+.frame4text11{
+    position: absolute;
+    width: 71px;
+    height: 14px;
+    top: 708px;
+    left: 1076px;
+    content: "Get the Consultation With Our Expert";
+    font-family: 'Radikal', sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 13.5px;
+    text-align: left;
+    color: rgb(124, 124, 124);
+    overflow: hidden;
+    white-space: wrap;
+}
+.frame4text10{
+    position: absolute;
+    width: 135px;
+    height: 36px;
+    top: 724px;
+    left: 1076px;
+    content: "Get the Consultation With Our Expert";
+    font-family: 'Radikal', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 17.55px;
+    text-align: left;
+    color: rgb(0, 0, 0);
+    overflow: hidden;
+    white-space: wrap;
+}
+.frame4box4{
+    position: absolute;
+    width: 61px;
+    height: 61px;
+    top: 699px;
+    left: 1003px;
+    border-radius: 30.5px;
+    background-color: rgb(0, 0, 0);
+    background-image: image-set("static/Prof.png");
+}
+.frame5text1{
+    position: absolute;
+    width: 436px;
+    height: 130px;
+    top: 47px;
+    left: 432px;
+    content: "Discover Your Real Estate Sector";
+    font-size: 48px;
+    font-weight: 700;
+    font-family: 'Radikal', sans-serif;
+    overflow: hidden;
+    line-height: 64.8px;
+    color: rgb(0, 0, 0);
+    white-space: wrap;
+    text-align: center;
+}
+.frame5text2{
+    position: absolute;
+    width: 234px;
+    height: 38px;
+    top: 233px;
+    left: 979px;
+    content: "Explore Our Diverse Range of Facility Types and Find Your Perfect Match";
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Radikal', sans-serif;
+    overflow: hidden;
+    line-height: 18.9px;
+    color: rgb(255, 255, 255);
+    white-space: wrap;
+    text-align: center;
+}
+.frame5box1{
+    position: absolute;
+    width: 1199px;
+    height: 582px;
+    top: 203px;
+    left: 40px;
+    border-radius: 11px;
+    background-color: rgb(0, 0, 0);
+    background-image: image-set("static\\photo_11_2024-08-05_21-16-01.jpg");
+}
+.frame5logo{
+    position: absolute;
+    width: 176px;
+    height: 176px;
+    top: 10px;
+    left: 40px;
+    background-color: rgba( 0, 0, 0, 1);
+    background-image: image-set("static\\logo.jpg");
+}
+.frame5box2{
+    position: absolute;
+    width: 186px;
+    height: 47px;
+    left: 1027px;
+    top: 691px;
+    border-radius: 36px;
+    background-color: rgba( 21, 39, 58, 1);
+}
+.frame5circle1{
+    position: absolute;
+    width: 41px;
+    height: 41px;
+    top: 694px;
+    left: 1030px;
+    border-radius: 20.5px;
+    background-color: rgb(99, 142, 196);
+}
+.frame5text3{
+    position: absolute;
+    width: 124px;
+    height: 18px;
+    top: 706px;
+    left: 1079px;
+    content: "Catalogue Download";
+    font-size: 13px;
+    font-weight: 500;
+    font-family: 'Radikal', sans-serif;
+    overflow: hidden;
+    line-height: 17.55px;
+    color: rgb(255, 255, 255);
+    white-space: wrap;
+}
+.frame5text4{
+    position: absolute;
+    width: 25px;
+    height: 32px;
+    top: 650px;
+    left: 59px;
+    content: "01";
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Radikal', sans-serif;
+    overflow: hidden;
+    line-height: 32.4px;
+    color: rgb(255, 255, 255);
+    white-space: wrap;
+}
+.frame5text5{
+    position: absolute;
+    width: 153px;
+    height: 38px;
+    top: 708px;
+    left: 59px;
+    content: "Real Estate";
+    font-size: 28px;
+    font-weight: 700;
+    font-family: 'Radikal', sans-serif;
+    overflow: hidden;
+    line-height: 37.8px;
+    color: rgb(255, 255, 255);
+    white-space: wrap;
+}
+.frame7box1{
+    position: absolute;
+    width: 1195px;
+    height: 750px;
+    top: 41px;
+    left: 43px;
+    border-radius: 44px;
+    background-color: rgb(0, 0, 0);
+    background-image: image-set("static\\Rectangle 165.png");
+}
+.frame7text1{
+    position: absolute;
+    width: 540px;
+    height: 172px;
+    top: 128px;
+    left: 115px;
+    content: "Build Your Future With Us";
+    font-size: 64px;
+    font-weight: 700;
+    font-family: 'Radikal', sans-serif;
+    overflow: hidden;
+    line-height: 86.4px;
+    color: rgb(255, 255, 255);
+    white-space: wrap;
+    text-align: left;
+}
+.frame7text2{
+    position: absolute;
+    width: 123px;
+    height: 18px;
+    top: 329px;
+    left: 139px;
+    content: "Start Your Journey";
+    font-size: 13px;
+    font-weight: 700;
+    font-family: 'Radikal', sans-serif;
+    overflow: hidden;
+    line-height: 17.55px;
+    color: rgb(255, 255, 255);
+    white-space: wrap;
+    text-align: left;
+}
+.frame7box2{
+    position: absolute;
+    width: 162px;
+    height: 43px;
+    top: 316px;
+    left: 115px;
+    border-radius: 55px;
+    background-color: rgb(13, 25, 40);
+}
+.logo{
+    position: absolute;
+    width: 176px;
+    height: 176px;
+    top: 7187px;
+    background-color: rgba( 0, 0, 0, 1);
+    background-image: image-set("static\\logo.jpg");
+}
+.text1{
+    position: absolute;
+    width: 261px;
+    height: 19px;
+    top: 7314px;
+    left: 41px;
+    content: "Building Your Dreams in Real Estate";
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'Radikal', sans-serif;
+    overflow: hidden;
+    line-height: 18.9px;
+    color: rgb(0, 0, 0);
+    white-space: wrap;
+    text-align: left;
+}
+.text2{
+    position: absolute;
+    width: 258px;
+    height: 32px;
+    top: 7587px;
+    left: 42px;
+    content: "Subscribe to our news";
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Radikal', sans-serif;
+    overflow: hidden;
+    line-height: 32.4px;
+    color: rgb(0, 0, 0);
+    white-space: wrap;
+    text-align: left;
+}
+.text3{
+    position: absolute;
+    width: 389px;
+    height: 44px;
+    top: 7636px;
+    left: 41px;
+    content: "Building Your Dreams in Real Estate";
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Radikal', sans-serif;
+    overflow: hidden;
+    line-height: 21.6px;
+    color: rgb(0, 0, 0);
+    opacity: 69%;
+    white-space: wrap;
+    text-align: left;
+}
+.text4{
+    position: absolute;
+    width: 94px;
+    height: 15px;
+    top: 7711px;
+    left: 42px;
+    content: "Building Your Dreams in Real Estate";
+    font-size: 11px;
+    font-weight: 700;
+    font-family: 'Radikal', sans-serif;
+    overflow: hidden;
+    line-height: 14.85px;
+    color: rgb(79, 79, 79);
+    white-space: wrap;
+    text-align: left;
+}
+.text5{
+    position: absolute;
+    width: 55px;
+    height: 15px;
+    top: 7770px;
+    left: 60px;
+    content: "Building Your Dreams in Real Estate";
+    font-size: 11px;
+    font-weight: 700;
+    font-family: 'Radikal', sans-serif;
+    overflow: hidden;
+    line-height: 14.85px;
+    color: rgb(255, 255, 255);
+    white-space: wrap;
+    text-align: left;
+}
+.line1{
+    position: absolute;
+    width: 389.01px;
+    height: 1px;
+    top: 7734px;
+    left: 42px;
+    background-color: rgb(217, 217, 217);
+}
+.box1{
+    position: absolute;
+    width: 89px;
+    height: 32px;
+    top: 7762px;
+    left: 41px;
+    border-radius: 32px;
+    background-color: rgb(0, 0, 0);
+}
+.box2{
+    position: absolute;
+    width: 230px;
+    height: 162px;
+    top: 7551px;
+    left: 580px;
+    background-image: image-set("static\\map2.png");
+}
+.text6{
+    position: absolute;
+    width: 129px;
+    height: 60px;
+    top: 7726px;
+    left: 580px;
+    content: "Building Your Dreams in Real Estate";
+    font-size: 15px;
+    font-weight: 900;
+    font-family: 'Radikal', sans-serif;
+    overflow: hidden;
+    line-height: 20.25px;
+    color: rgb(0, 0, 0);
+    white-space: wrap;
+    text-align: left;
+}
+.text7{
+    position: absolute;
+    width: 120px;
+    height: 19px;
+    top: 7231px;
+    left: 580px;
+    content: "Building Your Dreams in Real Estate";
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Radikal', sans-serif;
+    overflow: hidden;
+    line-height: 18.9px;
+    color: rgb(0, 0, 0);
+    white-space: wrap;
+    text-align: left;
+    opacity: 92%;
+}
+.text8{
+    position: absolute;
+    width: 48px;
+    height: 20px;
+    top: 7280px;
+    left: 580px;
+    content: "Building Your Dreams in Real Estate";
+    font-size: 15px;
+    font-weight: 900;
+    font-family: 'Radikal', sans-serif;
+    overflow: hidden;
+    line-height: 20.25px;
+    color: rgb(0, 0, 0);
+    white-space: wrap;
+    text-align: left;
+    text-decoration: underline;
+}
+.text9{
+    position: absolute;
+    width: 110px;
+    height: 20px;
+    top: 7313px;
+    left: 580px;
+    content: "Building Your Dreams in Real Estate";
+    font-size: 15px;
+    font-weight: 900;
+    font-family: 'Radikal', sans-serif;
+    overflow: hidden;
+    line-height: 20.25px;
+    color: rgb(0, 0, 0);
+    white-space: wrap;
+    text-align: left;
+    text-decoration: underline;
+}
+.text10{
+    position: absolute;
+    width: 110px;
+    height: 20px;
+    top: 7346px;
+    left: 580px;
+    content: "Building Your Dreams in Real Estate";
+    font-size: 15px;
+    font-weight: 900;
+    font-family: 'Radikal', sans-serif;
+    overflow: hidden;
+    line-height: 20.25px;
+    color: rgb(0, 0, 0);
+    white-space: wrap;
+    text-align: left;
+    text-decoration: underline;
+}
+.text11{
+    position: absolute;
+    width: 110px;
+    height: 20px;
+    top: 7379px;
+    left: 580px;
+    content: "Building Your Dreams in Real Estate";
+    font-size: 15px;
+    font-weight: 900;
+    font-family: 'Radikal', sans-serif;
+    overflow: hidden;
+    line-height: 20.25px;
+    color: rgb(0, 0, 0);
+    white-space: wrap;
+    text-align: left;
+    text-decoration: underline;
+}
+.circle1{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    top: 7231px;
+    left: 976px;
+    background-image: image-set("static\\founder.jpg");
+}
+.text12{
+    position: absolute;
+    width: 263px;
+    height: 19px;
+    top: 7727px;
+    left: 976px;
+    content: "Building Your Dreams in Real Estate";
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Radikal', sans-serif;
+    overflow: hidden;
+    line-height: 18,9px;
+    color: rgb(0, 0, 0);
+    white-space: wrap;
+    text-align: left;
+    opacity: 68%;
+}
+.text13{
+    position: absolute;
+    width: 204px;
+    height: 40px;
+    top: 7314px;
+    left: 976px;
+    content: "Building Your Dreams in Real Estate";
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'Radikal', sans-serif;
+    overflow: hidden;
+    line-height: 20.25px;
+    color: rgb(0, 0, 0);
+    white-space: wrap;
+    text-align: left;
+}
+.text14{
+    position: absolute;
+    width: 119px;
+    height: 19px;
+    top: 7763px;
+    left: 976px;
+    content: "Building Your Dreams in Real Estate";
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Radikal', sans-serif;
+    overflow: hidden;
+    line-height: 18.9px;
+    color: rgb(0, 0, 0);
+    white-space: wrap;
+    text-align: left;
+}
+.text15{
+    position: absolute;
+    width: 101px;
+    height: 19px;
+    top: 7763px;
+    left: 1128px;
+    content: "Building Your Dreams in Real Estate";
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Radikal', sans-serif;
+    overflow: hidden;
+    line-height: 18.9px;
+    color: rgb(0, 0, 0);
+    white-space: wrap;
+    text-align: left;
+}
+.text16{
+    position: absolute;
+    width: 103px;
+    height: 16px;
+    top: 7244px;
+    left: 1064px;
+    content: "Building Your Dreams in Real Estate";
+    font-size: 12px;
+    font-weight: 700;
+    font-family: 'Radikal', sans-serif;
+    overflow: hidden;
+    line-height: 16.2px;
+    color: rgb(0, 0, 0);
+    white-space: wrap;
+    text-align: left;
+    opacity: 77%;
+}
+.text17{
+    position: absolute;
+    width: 129px;
+    height: 19px;
+    top: 7266px;
+    left: 1064px;
+    content: "Building Your Dreams in Real Estate";
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Radikal', sans-serif;
+    overflow: hidden;
+    line-height: 18.9px;
+    color: rgb(0, 0, 0);
+    white-space: wrap;
+    text-align: left;
+}
+.box3{
+    position: absolute;
+    width: 73px;
+    height: 25px;
+    top: 7376px;
+    left: 976px;
+    border-radius: 32px;
+    background-color: rgb(0, 0, 0);
+}
+.text18{
+    position: absolute;
+    width: 62px;
+    height: 14px;
+    top: 7382px;
+    left: 987px;
+    content: "Building Your Dreams in Real Estate";
+    font-size: 10px;
+    font-weight: 700;
+    font-family: 'Radikal', sans-serif;
+    overflow: hidden;
+    line-height: 13.5px;
+    color: rgb(255, 255, 255);
+    white-space: wrap;
+    text-align: left;
+    opacity: 78%;
+}

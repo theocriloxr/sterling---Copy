@@ -89,7 +89,6 @@ body{
     top: -46.4vh;
     left: 52.313%;
     border-radius: 3.5% / 2.6% ;
-    background-color: black;
     background-image: url("Static\\new2.jpg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -1472,8 +1471,34 @@ background-color: rgb(217, 217, 217);
     text-align: left;
     opacity: 78%;
 }*/
-@media (max-width: 1270px){
+@media (max-width: 950px){
     body{
         width: 100%;
+        height: 759vh;
+        background-color: rgb(255, 255, 255);
+    }
+    .frame2{
+        top: calc(100 * (320/568));
+    }
+    .frame3{
+        height: 100vh;
+        top: calc(100 * (320/1136));
+    }
+    .frame4{
+        top: calc(100 * (320/1704));
+    }
+    .frame5{
+        height: 85.74vh;
+        top: calc(100 * (320/2272));
+    }
+    .frame6{
+        top: calc(100 * (320/2759));
+    }
+    .frame1box1{
+        width: 100%;
+        height: 100vh;
+        top: 0%;
+        left: 0%;
+        border-radius: 0%;
     }
 }

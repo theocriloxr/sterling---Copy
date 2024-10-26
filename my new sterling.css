@@ -1471,7 +1471,9 @@ background-color: rgb(217, 217, 217);
     white-space: wrap;
     text-align: left;
     opacity: 78%;
-}
+}*/
 @media (max-width: 1270px){
-
+    body{
+        width: 100%;
+    }
 }

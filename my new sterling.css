@@ -181,7 +181,7 @@ body{
     font-weight: 700;
     font-family: 'Radikal', sans-serif;
     overflow: hidden;
-    line-height: 1em;
+    line-height: 1;
     color: rgb(0, 0, 0);
     white-space: wrap;
     text-align: center;

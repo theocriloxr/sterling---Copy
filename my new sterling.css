@@ -6,7 +6,7 @@
     white-space: wrap;
 }
 html {
-    font-size: calc(0.6vw + 0.6vh);
+    font-size: calc(0.5vw + 0.8vh);
 }
 body{
     margin: 0 auto;

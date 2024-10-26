@@ -79,7 +79,7 @@ body{
     height: 21.2vh;
     top: -2.64%;
     left: -0.781%;
-    background-image: image-set("static\\logo.jpg");
+    background-image: image-set("Static\\logo.jpg");
     background-size: 100% 100%;
 }
 .frame1box1{
@@ -137,7 +137,7 @@ body{
     height: 3.13%;
     left: 3.89%;
     top: 93.5%;
-    background-image: image-set("static\\Ringer Volume2 (2).png");
+    background-image: image-set("Static\\Ringer Volume2 (2).png");
     background-size: 100% 100%;
     cursor: pointer;
 }
@@ -204,7 +204,7 @@ body{
     left: 90.8%;
     cursor: pointer;
     top: 88.1%;
-    background-image: image-set("static\\Downloading Updates2 (2).png");
+    background-image: image-set("Static\\Downloading Updates2 (2).png");
     background-size: 100% 100%;
 }
 .frame2box1{
@@ -215,7 +215,7 @@ body{
     left: 3.2%;
     border-radius: 6.2% / 4.6%;
     background-color: rgb(0, 0, 0);
-    background-image: image-set("static\\new1.jpg");
+    background-image: image-set("Static\\new1.jpg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -330,7 +330,7 @@ body{
     left: 3%;
     opacity: 50%;
     background-blend-mode: luminosity;
-    background-image: image-set("static\\energy.jpg");
+    background-image: image-set("Static\\energy.jpg");
 }
 
 .frame3box1mini1{
@@ -445,7 +445,7 @@ body{
     left: 51.5%;
     opacity: 50%;
     background-blend-mode: luminosity;
-    background-image: image-set("static\\cleaning.jpg");
+    background-image: image-set("Static\\cleaning.jpg");
     background-size: 100% 100%;
 }
 .frame3box2text1{
@@ -561,7 +561,7 @@ body{
     left: 51.5%;
     opacity: 50%;
     background-blend-mode: luminosity;
-    background-image: image-set("static\\frame 2b.png");
+    background-image: image-set("Static\\frame 2b.png");
 }
 
 .frame3box4mini1{
@@ -601,7 +601,7 @@ body{
     left: 3%;
     opacity: 50%;
     background-blend-mode: luminosity;
-    background-image: image-set("static\\frame 2b.png");
+    background-image: image-set("Static\\frame 2b.png");
 }
 
 .frame3box3mini1{
@@ -641,7 +641,7 @@ body{
     left: 3%;
     opacity: 50%;
     background-blend-mode: luminosity;
-    background-image: image-set("static\\frame 2b.png");
+    background-image: image-set("Static\\frame 2b.png");
 }
 
 .frame3box5mini1{
@@ -681,7 +681,7 @@ body{
     left: 51.5%;
     opacity: 50%;
     background-blend-mode: luminosity;
-    background-image: image-set("static\\frame 2b.png");
+    background-image: image-set("Static\\frame 2b.png");
 }
 
 .frame3box6mini1{
@@ -709,7 +709,7 @@ body{
     top: 4.1%;
     left: 48.4%;
     border-radius: 3.4% 2.7%;
-    background-image: image-set("static\\Frame 4.png" );
+    background-image: image-set("Static\\Frame 4.png" );
     background-size: 100% 100%;
 }
 .frame4text1{
@@ -951,7 +951,7 @@ background-color: rgb(217, 217, 217);
     left: 78.4%;
     border-radius: 50%;
     background-color: rgb(0, 0, 0);
-    background-image: image-set("static/Prof.png");
+    background-image: image-set("Static/Prof.png");
 }
 .frame4img{
    position: absolute;
@@ -1001,7 +1001,7 @@ background-color: rgb(217, 217, 217);
     left: 3.1%;
     border-radius: 11px;
     background-color: rgb(0, 0, 0);
-    background-image: image-set("static\\new3.jpg");
+    background-image: image-set("Static\\new3.jpg");
     background-size: 100% 100%;
     background-position: center;
 }
@@ -1012,7 +1012,7 @@ background-color: rgb(217, 217, 217);
     top: 1.2%;
     left: 3.13%;
     background-color: rgba( 0, 0, 0, 1);
-    background-image: image-set("static\\logo.jpg");
+    background-image: image-set("Static\\logo.jpg");
     background-size: 100% 100%;
     background-position: center;
 }
@@ -1042,7 +1042,7 @@ background-color: rgb(217, 217, 217);
     height: 3.4vh;
     top: 84%;
     left: 80.9%;
-    background-image: image-set("static\\downloading updates (2).png");
+    background-image: image-set("Static\\downloading updates (2).png");
     background-size: 100% 100%;
     background-position: center;
     cursor: pointer;
@@ -1097,7 +1097,7 @@ background-color: rgb(217, 217, 217);
     top: 4.93%;
     left: 3.4%;
     border-radius: 3.7% / 5.9%;
-    background-image: url("static//Rectangle 165.png");
+    background-image: url("Static//Rectangle 165.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -1146,7 +1146,7 @@ background-color: rgb(217, 217, 217);
     width: 13.5%;
     height: 21.2vh;
     top: 761.99%;
-    background-image: image-set("static\\logo.jpg");
+    background-image: image-set("Static\\logo.jpg");
     background-size: 100% 100%;
 }
 .text1{
@@ -1253,7 +1253,7 @@ background-color: rgb(217, 217, 217);
     height: 19.5vh;
     top: 819%;
     left: 45.3%;
-    background-image: image-set("static\\map.png");
+    background-image: image-set("Static\\map.png");
     background-color: black;
     background-size: 100% 100%;
     background-position: center;

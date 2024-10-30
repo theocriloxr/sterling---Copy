@@ -772,7 +772,7 @@ body{
     top: 9%;
     left: 81.5%;
     opacity: 94%;
-    background-image: url("Static\\Ringer volume (2).png");
+    background-image: url("Static\\Ringer Volume2 (2).png");
     background-size: 100% 100%;
     background-position: center;
     cursor: pointer;
@@ -1040,7 +1040,7 @@ background-color: rgb(217, 217, 217);
     height: 3.4vh;
     top: 84%;
     left: 80.9%;
-    background-image: image-set("Static\\downloading updates (2).png");
+    background-image: image-set("Static\\Downloading Updates (2).png");
     background-size: 100% 100%;
     background-position: center;
     cursor: pointer;

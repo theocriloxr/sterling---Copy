@@ -43,10 +43,10 @@ body{
     background-color: rgb(190, 190, 190);
 }
 .frame1content1{
-    position: relative;
+    position: absolute;
     width: 39.375%;
     height: 23.4vh;
-    top: 17.6%;
+    top: 37.6%;
     left: 5.47%;
     font-size: 3em;
     line-height: 1.35;
@@ -58,10 +58,10 @@ body{
     font-family: 'Radikal', sans-serif;
 }
 .frame1content2{
-    position: relative;
+    position: absolute;
     width: 15.86%;
     height: 2.88vh;
-    top: 17.9%;
+    top: 34.9%;
     left: 17.5%;
     font-size: 1.3em;
     line-height: 1;
@@ -73,7 +73,7 @@ body{
     font-family: 'Radikal', sans-serif;
 }
 .frame1logo{
-    position: relative;
+    position: absolute;
     width: 13.75%;
     height: 21.2vh;
     top: -2.64%;
@@ -82,10 +82,10 @@ body{
     background-size: 100% 100%;
 }
 .frame1box1{
-    position: relative;
+    position: absolute;
     width: 46.4%;
     height: 97.596vh;
-    top: -46.4vh;
+    top: 1.202%;
     left: 52.313%;
     border-radius: 3.5% / 2.6% ;
     background-image: url("Static\\new2.jpg");
@@ -1494,13 +1494,31 @@ background-color: rgb(217, 217, 217);
         top: calc(100 * (320/2759));
     }
     .frame1box1{
-        width: 100%;
+        position: absolute;
+        width: 100vw;
         height: 100vh;
         top: 0%;
         left: 0%;
         border-radius: 0%;
     }
     .frame1box2{
-        
+        position: absolute;
+        top: 90.7%;
+        left: 5%;
+    }
+    .frame1content1{
+        position: absolute;
+        left: 17.2%;
+        top: 44.11%;
+        width: 65.625vw;
+        height: 14.24vh;
+        color: rgb(255, 255, 255);
+    }
+    .frame1content2{
+        top: 42%;
+        left: 17.2%;
+        color: rgb(255, 255, 255);
+        width: 66vw;
+        height: 2.5vh;
     }
 }

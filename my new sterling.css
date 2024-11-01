@@ -1521,4 +1521,10 @@ background-color: rgb(217, 217, 217);
         width: 66vw;
         height: 2.5vh;
     }
+    .frame1text1{
+        display: none;
+    }
+    .frame1text2{
+        display: none;
+    }
 }

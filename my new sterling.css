@@ -328,6 +328,7 @@ body{
     left: 3%;
     opacity: 50%;
     background-blend-mode: luminosity;
+    background-size: 100% 100%;
     background-image: image-set("Static\\energy.jpg");
 }
 

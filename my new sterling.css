@@ -78,7 +78,7 @@ body{
     height: 21.2vh;
     top: -2.64%;
     left: -0.781%;
-    background-image: image-set("Static\\logo.jpg");
+    background-image: url("Static\\logo.jpg");
     background-size: 100% 100%;
 }
 .frame1box1{
@@ -135,7 +135,7 @@ body{
     height: 3.13%;
     left: 3.89%;
     top: 93.5%;
-    background-image: image-set("Static\\Ringer Volume2 (2).png");
+    background-image: url("Static\\Ringer Volume2 (2).png");
     background-size: 100% 100%;
     cursor: pointer;
 }
@@ -202,7 +202,7 @@ body{
     left: 90.8%;
     cursor: pointer;
     top: 88.1%;
-    background-image: image-set("Static\\Downloading Updates2 (2).png");
+    background-image: url("Static\\Downloading Updates2 (2).png");
     background-size: 100% 100%;
 }
 .frame2box1{
@@ -213,7 +213,7 @@ body{
     left: 3.2%;
     border-radius: 6.2% / 4.6%;
     background-color: rgb(0, 0, 0);
-    background-image: image-set("Static\\new1.jpg");
+    background-image: url("Static\\new1.jpg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center;
